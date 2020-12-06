@@ -1,4 +1,4 @@
 <% @doctor.appointments.each do |appt| %>
     <%= appt.appointment_datetime.strftime("%B %d, %Y at %R") %><br>
-    <%= link_to appt.patient.name, patient_path(appt.patient) if appt.patient %><br>
+    <%= link_to appt.patient_name, patient_path(appt.patient) if appt.patient %><br>
 <% end %>
