@@ -34,4 +34,3 @@ You'll need to create all of the migrations, models, controllers, and views for 
 5. Create an `Appointment#show` page that shows the date, time, patient, and doctor for that particular appointment. Note that there should NOT be an `Appointment#index` page –– we don't want to have all of the appointments on display for anyone to see.
 
 We've provided a seed file so you can have some data to play around with –– run `rake db:seed` once your migrations and models are complete.
-
